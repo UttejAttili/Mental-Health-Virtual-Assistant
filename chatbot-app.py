@@ -179,4 +179,4 @@ with gr.Blocks() as demo:
 
     msg.submit(respond, [msg, chatbot], [msg, chatbot])
 
-demo.launch(share=True)
+demo.launch(prot=7860)
