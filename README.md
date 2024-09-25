@@ -26,8 +26,8 @@ Installation:
 To set up and run this project locally, follow these steps:
 
 1) Clone the repository:
-git clone https://github.com/your-repo/mental-health-assistant.git
-cd mental-health-assistant
+git clone https://github.com/UttejAttili/Mental-Health-Virtual-Assistant.git
+cd Mental-Health-Virtual-Assistant
 
 2) Install the required dependencies:
 pip install -r requirements.txt
