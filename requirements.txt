@@ -6,3 +6,4 @@ langchain_openai
 langchain_text_splitters
 gradio
 boto3
+pypdf
