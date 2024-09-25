@@ -179,4 +179,4 @@ with gr.Blocks() as demo:
 
     msg.submit(respond, [msg, chatbot], [msg, chatbot])
 
-demo.launch(prot=7860)
+demo.launch(server_name="0.0.0.0")
