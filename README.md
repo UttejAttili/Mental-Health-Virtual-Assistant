@@ -202,9 +202,15 @@ The application will start running and the url will be provided in the terminal.
 Results: 
 The following results show the chatbot having a human-like interaction with the user. It tries to understand what the user going through, analyze it and explain both the problem and solution.
 
+Result 1: 
+
 ![conv1](https://github.com/UttejAttili/mental-Health-Virtual-Assistant/blob/main/screenshots/conv1.png)
 
+Result 2: 
+
 ![conv2](https://github.com/UttejAttili/mental-Health-Virtual-Assistant/blob/main/screenshots/conv2.png)
+
+Result 3: 
 
 ![conv3](https://github.com/UttejAttili/mental-Health-Virtual-Assistant/blob/main/screenshots/conv3.png)
 
