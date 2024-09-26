@@ -78,7 +78,9 @@ mental-Health-Virtual-Assistant/
 Deploying the application on AWS: 
 
 requirements:
+
 -> AWS EC2
+
 -> Github
 
 Here's how I deployed my implementation on AWS using EC2 instance and ran the application. 
@@ -183,9 +185,9 @@ Note: the use of “ec2-user” before the “@” symbol may not always be appl
 
 	commands: 
  
-	 -> python3 -m venv venv
+	  python3 -m venv venv
   
-	 -> source venv/bin/activate
+	  source venv/bin/activate
   
 -> install the required packages to run the project in Virtual Machine
 
@@ -198,9 +200,12 @@ Note: the use of “ec2-user” before the “@” symbol may not always be appl
 The application will start running and the url will be provided in the terminal. Copy the URL and paste it in the web browser and test the application. 
 
 Results: 
-The following results show the chatbot having a human-like interaction with the user. It tries to understand what the user going through, analyze it and explain both the problem and solution. 
+The following results show the chatbot having a human-like interaction with the user. It tries to understand what the user going through, analyze it and explain both the problem and solution.
+
 ![conv1](https://github.com/UttejAttili/mental-Health-Virtual-Assistant/blob/main/screenshots/conv1.jpeg)
+
 ![conv2](https://github.com/UttejAttili/mental-Health-Virtual-Assistant/blob/main/screenshots/conv2.jpeg)
+
 ![conv3](https://github.com/UttejAttili/mental-Health-Virtual-Assistant/blob/main/screenshots/conv3.jpeg)
 
 Future Improvements:
