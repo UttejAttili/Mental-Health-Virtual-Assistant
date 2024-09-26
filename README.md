@@ -24,10 +24,10 @@ History-Aware Responses: The chatbot keeps track of previous chat history to mai
 Simple, Brief Answers: Each response is capped at three sentences, ensuring that the information is concise and easy to digest.
 Gradio Interface: A user-friendly interface that allows users to interact with the chatbot in a web-based environment.
 
-Workflow Architecture:
+Implementation Architecture:
 ![Application](https://github.com/UttejAttili/mental-Health-Virtual-Assistant/blob/main/screenshots/Application.jpeg)
 
-
+The data source consist of two document files (More files can be added to broaden the implementation). They are parsed, vectorized and stored in a Vector Database(ChromaDB). When a user sends a query, it is passed to the vectorizer block and the vectorized query is sent to the similarity search block. this block will search for the similar chunks of vectors in the Vector database and grabs them. they are all passed on to the LLM. The LLM gathers the query, and chunks to generate an appropriate response. this response is given back to the user. The LLM will also send both the query and response to the conversation history block to store the chat history.
 
 Installation:
 
