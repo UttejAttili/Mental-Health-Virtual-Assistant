@@ -153,7 +153,7 @@ steps to create an AWS EC2 Instance:
 	
 6) In the terminal, Navigate to the folder where the key pair file is present and execute the following command:
 	
-->	ssh -i path_to_your_keypair_file.pem ec2-user@Public-IPv4-address
+	ssh -i path_to_your_keypair_file.pem ec2-user@Public-IPv4-address
 	
 Note: the use of “ec2-user” before the “@” symbol may not always be applicable; it depends on your instance. To determine the correct username, click on the instance, navigate to “Connect, ” and under the “EC2 instance connect” tab, you will find the required username. Moreover, you can locate your Public IPv4 address in your EC2 instance panel.
 
@@ -197,12 +197,18 @@ Note: the use of “ec2-user” before the “@” symbol may not always be appl
 
 The application will start running and the url will be provided in the terminal. Copy the URL and paste it in the web browser and test the application. 
 
+Results: 
+The following results show the chatbot having a human-like interaction with the user. It tries to understand what the user going through, analyze it and explain both the problem and solution. 
+![conv1](https://github.com/UttejAttili/mental-Health-Virtual-Assistant/blob/main/screenshots/conv1.jpeg)
+![conv2](https://github.com/UttejAttili/mental-Health-Virtual-Assistant/blob/main/screenshots/conv2.jpeg)
+![conv3](https://github.com/UttejAttili/mental-Health-Virtual-Assistant/blob/main/screenshots/conv3.jpeg)
 
 Future Improvements:
 
 1) Expand Knowledge Base: Adding more research articles and documentation to cover a wider range of mental health conditions.
 2) User Mood Detection: Implementing a more advanced mood detection system for better response generation.
 3) Improved Conversation Flow: Enhancing the conversation flow for better user interaction and emotional support.
+4) Automate the triggering process: instead of manually creating an instance and executing the application, we can automate it with a simple trigger so that it can be permanently deployed in a server and it will run only when there is a trigger. 
 
 Reference: https://abdulrahman-almutlaq.medium.com/deploying-gradio-on-aws-a-beginners-quick-start-guide-85a01f269945
 		       https://python.langchain.com/docs/tutorials/rag/
