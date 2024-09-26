@@ -8,9 +8,13 @@ This project is a virtual mental health assistant chatbot designed to help users
 The chatbot is built using the following tools:
 
 -> LangChain for managing the interaction with OpenAI models and handling the chat flow.
+
 -> OpenAI GPT-4 model for generating human-like responses and retrieving information from documents.
+
 -> Chroma for document retrieval and embeddings storage.
+
 -> Gradio for building an easy-to-use web interface for chatbot interaction.
+
 -> PDF document parsing to extract relevant mental health information about ADHD and PTSD from research articles.
 
 Features:
@@ -49,7 +53,7 @@ The Gradio app will generate a shareable link in the terminal. Use the link to a
 
 
 Project Structure:
-
+```bash
 mental-Health-Virtual-Assistant/
 │
 ├── chatbot-app.py                        # Main application script to launch the chatbot
@@ -58,7 +62,7 @@ mental-Health-Virtual-Assistant/
 │   ├── PTSD Symptoms and Treatment.pdf
 ├── requirements.txt              # Python dependencies
 └── README.md      
-
+```
 
 Deploying the application on AWS: 
 
