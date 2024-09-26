@@ -24,6 +24,10 @@ History-Aware Responses: The chatbot keeps track of previous chat history to mai
 Simple, Brief Answers: Each response is capped at three sentences, ensuring that the information is concise and easy to digest.
 Gradio Interface: A user-friendly interface that allows users to interact with the chatbot in a web-based environment.
 
+Workflow Architecture:
+![Application](https://github.com/UttejAttili/mental-Health-Virtual-Assistant/blob/main/screenshots/Application.jpeg)
+
+
 
 Installation:
 
