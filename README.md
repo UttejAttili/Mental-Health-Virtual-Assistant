@@ -27,23 +27,24 @@ To set up and run this project locally, follow these steps:
 
 1) Clone the repository:
 git clone https://github.com/UttejAttili/Mental-Health-Virtual-Assistant.git
+
 cd Mental-Health-Virtual-Assistant
 
-2) Install the required dependencies:
+3) Install the required dependencies:
 pip install -r requirements.txt
 
-3) Set up your OpenAI API key and user agent by replacing the placeholders in the os.environ section with your credentials:
+4) Set up your OpenAI API key and user agent by replacing the placeholders in the os.environ section with your credentials:
 os.environ['USER_AGENT'] = 'your-agent'
 os.environ['OPENAI_API_KEY'] = 'your-api-key'
 
-4) Ensure the PDF files for ADHD and PTSD research articles are placed in the docs/ directory:
+5) Ensure the PDF files for ADHD and PTSD research articles are placed in the docs/ directory:
 Evaluation and Treatment of ADHD.pdf
 PTSD Symptoms and Treatment.pdf
 
-5) Run the application:
+6) Run the application:
 python app.py
 
-6) Access the chatbot interface:
+7) Access the chatbot interface:
 The Gradio app will generate a shareable link in the terminal. Use the link to access the chatbot in your browser.
 
 
@@ -119,12 +120,7 @@ steps to create an AWS EC2 Instance:
 	
 ->	ssh -i path_to_your_keypair_file.pem ec2-user@Public-IPv4-address
 	
-	Note: the use of “ec2-user” before the “@” symbol may not always be
-	applicable; it depends on your instance. To determine the correct
-	username, click on the instance, navigate to “Connect,
-	” and under the “EC2 instance connect” tab, you will find the required username.
-	Moreover, you can locate your Public IPv4 address in your EC2 instance
-	panel.
+Note: the use of “ec2-user” before the “@” symbol may not always be applicable; it depends on your instance. To determine the correct username, click on the instance, navigate to “Connect, ” and under the “EC2 instance connect” tab, you will find the required username. Moreover, you can locate your Public IPv4 address in your EC2 instance panel.
 
 6) Once you connect to your EC2 instance, configure it by doing the following process:
 	
