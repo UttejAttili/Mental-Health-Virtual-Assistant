@@ -1,7 +1,7 @@
 # SPDX-License-Identifier: BSD-2-Clause
 """File documentation block"""
 
-# Copyright (C) <FIRST YEAR>, <LAST YEAR> <COPYRIGHT HOLDER>
+# Copyright (C) 2024, 2024 Uttej Attili
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions
